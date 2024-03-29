@@ -1,1 +1,207 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  padding: 92px 24px; 
+}
+
+.content-section {
+  max-width: 1052px;
+  min-height: 105px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-section_theme_overlay {
+  color: #000;
+  background-color: deepskyblue;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #FFFFFF;
+}
+
+.header__menu-list {
+  display: flex;
+  
+  list-style-type: circle;
+} 
+
+.header__logo {
+  display: flex;
+  width: 148px;
+  height: 105px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo-image {
+  width: 100%;  
+} 
+
+.header__contacts {
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.header__menu-item_active {
+  list-style-type: none;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+.header__menu-link {
+  margin-right: 30px;
+}
+
+.header__contacts-item_active .header__contacts-link  {
+  text-decoration: none;
+}
+
+
+.content {
+  
+  max-width: 1440px;
+  /* box-sizing: border-box; */
+  margin: auto;
+  max-height: 757px;
+}
+
+.cover {
+  height: 757px;
+  position: relative;
+  text-transform: uppercase;
+  background-image: url(../images/cover.jpg);
+  background-size: 140% auto;
+  padding: 0px 50px 201px 50px;
+  background-position: top center;
+  z-index: 1;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.6;
+  inset: 0;
+  position: absolute;
+  background-size: 100% auto;;
+  max-width: 1052px;
+  min-height: 105px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+} 
+
+
+
+.cover__title {
+  color: #fff;
+  font-family: 'Raleway', serif;
+  z-index: 3;
+  font-size: 100px;
+  width: 1100px;
+} 
+
+.aligned-text {
+  display: block;
+}
+
+.no-letter-spacing {
+  word-spacing: 30px; /*пробел между  н адо*/
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;  /*пробел между буквами в словах*/
+  word-spacing: -20px;  /*пробел между   он о  теб е*/
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  position: absolute;
+  width: 850px;
+  height: 50px;
+  left: 82px;
+  top: 667px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  word-spacing: 20px;
+
+}
+
+.bet-button {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+ .content-section {
+  display: flex;
+  margin: auto;
+  max-width: 1052px;
+  min-height: 97px;
+}
+
+.footer__contacts {
+  list-style-type: none;
+}
+
+.footer__menu-list {
+  list-style-type: none;
+  text-align: center;
+} 
+
+.footer__socials {
+  display: flex;
+  gap: 48px;
+}
+
+.footer__menu-item_active {
+  list-style-type: none;
+}
+
+.footer__socials-image {
+width: 48px;
+height: 48px;
+}
+
+.footer__menu-item_active .footer__menu-link {
+  text-decoration: none;
+}
+
+.footer__contacts-item_active .footer__contacts-link  {
+  text-decoration: none;
+}
+
+
+
