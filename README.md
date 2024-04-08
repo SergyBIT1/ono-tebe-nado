@@ -18,7 +18,7 @@
 
 Склонировать репозиторий:
 
-git clone <название репозитория>
+git clone git@github.com:SergyBIT1/ono-tebe-nado.git
 
 < cd название репозитория>
 
